@@ -1,50 +1,23 @@
-//index.js
-//获取应用实例
-const app = getApp()
-
+// pages/goodList/goodList.js
 Page({
   data: {
-    navList:[
+    brandList:[
       {
-        name:1,
-        tittle:'童鞋',
-        imgurl: '../../../../assets/icons/tongxie.png'
+        value:'童泰',
+        imgurl:'https://ae01.alicdn.com/kf/U80bd58845494408c84467a4aed5bcfa0K.jpg'
       },
       {
-        name:2,
-        tittle:'品质童装',
-        imgurl: '../../../../assets/icons/tongxie.png'
+        value:'HM',
+        imgurl:'https://ae01.alicdn.com/kf/U3f487da37e08400a9de381c65d143c076.jpg'
       },
       {
-        name:3,
-        tittle:'纸尿裤',
-        imgurl: '../../../../assets/icons/tongxie.png'
+        value:'巴拉巴拉',
+        imgurl:'https://ae01.alicdn.com/kf/U0d22e702fd6a4c3d895aca37a1e479c4D.jpg'
       },
       {
-        name:4,
-        tittle:'哺乳喂养',
-        imgurl: '../../../../assets/icons/tongxie.png'
-      },
-      {
-        name:5,
-        tittle:'婴儿车',
-        imgurl: '../../../../assets/icons/tongxie.png'
-      },
-      {
-        name:6,
-        tittle:'奶粉',
-        imgurl: '../../../../assets/icons/tongxie.png'
-      },
-      {
-        name:7,
-        tittle:'图书玩具',
-        imgurl: '../../../../assets/icons/tongxie.png'
-      },
-      {
-        name:8,
-        tittle:'更多',
-        imgurl: '../../../../assets/icons/tongxie.png'
-      },
+        value:'purebom',
+        imgurl:'https://ae01.alicdn.com/kf/U91c03f27ed89432b84c903241efe3b4cr.jpg'
+      }
     ],
     goods:[
       {
@@ -95,15 +68,62 @@ Page({
         price:88,
         oldPrice:360
       }
-    ],
-    showBackTop:false
+    ]
   },
-  // 监听页面滚动函数(待优化)
-  onPageScroll(options) {
-    const scrollTop = options.scrollTop;
-    this.setData({
-      showBackTop: scrollTop >= 500
-    })
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+
   }
 })
-

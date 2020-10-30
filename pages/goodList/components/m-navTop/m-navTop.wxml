@@ -1,0 +1,5 @@
+<scroll-view class="navTop" scroll-x>
+  <block wx:for="{{navTopList}}" wx:key="index">
+    <text class="navTop-tittle">{{item}}</text>
+  </block>
+</scroll-view>

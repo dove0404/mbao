@@ -1,8 +1,15 @@
-.index-navbg{
-  background-color: yellow;
-  /* border: 1rpx solid #333; */
+.search{
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+}
+.navgatorbg{
+  background-image: url(https://ae01.alicdn.com/kf/Ua095941e5a7d49918ef5d8b21fb92ea0n.jpg);
   overflow: auto;
   padding: 0 24rpx;
+ background-repeat:  no-repeat;
+ background-size: contain
 }
 .home-tittle{
   position: relative;

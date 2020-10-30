@@ -1,9 +1,8 @@
-/* @import "../../sytles/iconfont.wxss"; */
-
 .search{
   height: 80rpx;
   background-color: var(--themeColor);
   padding: 10rpx 24rpx;
+  width: 100%;
 }
 .search-nav{
   background-color: #fff;

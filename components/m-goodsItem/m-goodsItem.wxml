@@ -1,12 +1,12 @@
 <view class="goodsItem">
   <view class="goods-image">
-    <image src="{{item.imgurl}}" mode="widthFix"/>
+    <image class="goods-imageUr" src="{{item.imgurl}}" mode="widthFix"/>
   </view>
   <view class="desc-info">
     <view class="tittle">{{item.tittle}}</view>
     <view class="price">
       <text>￥{{item.price}}</text>
-      <text>￥{{item.oldPrice}}</text>
+      <text class="orgprice">￥{{item.oldPrice}}</text>
     </view>
   </view>
 </view>

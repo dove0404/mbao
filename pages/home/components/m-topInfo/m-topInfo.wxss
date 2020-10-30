@@ -2,6 +2,7 @@
   display: flex;
   background-color: var(--themeColor);
   height: 80rpx;
+  margin-top: 80rpx;
 }
 .topInfo-item{
   flex: 1;

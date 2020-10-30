@@ -1,10 +1,11 @@
-<m-search/>
+<m-search class="search"/>
 <m-topInfo/>
-<view class="index-navbg" style="background:url('../../assets/image/navbg.png') no-repeat;background-size:contain">
-  <m-navigatorBar/>
+<view class="navgatorbg">
+  <m-navigatorBar navList="{{navList}}"/>
 </view>
 <view class="home-tittle">
   <text class="tittle-text">好物推荐</text>
 </view>
 <m-goods goods="{{goods}}"/>
+<m-backTop wx:if="{{showBackTop}}"/>
 

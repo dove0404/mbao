@@ -1,0 +1,3 @@
+<view bindtap="handBackTop">
+  <image class="backTop" src="../../assets/image/backtop.png" mode="widthFix"/>
+</view>

@@ -1,0 +1,11 @@
+.navTop{
+  height: 72rpx;
+  background-color: white;
+  padding-left: 24rpx;
+  white-space: nowrap;
+}
+.navTop-tittle{
+  padding: 0 20rpx;
+  line-height: 72rpx;
+  font-size: 28rpx;
+}

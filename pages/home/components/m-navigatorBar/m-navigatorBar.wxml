@@ -1,6 +1,8 @@
 <view class="index-nav">
-  <navigator class="nav-item" wx:for="{{navList}}" wx:key="name">
-    <image class="nav-img" mode="widthFix" src="{{item.imgurl}}"/>
-    <text class="nav-tittle">{{item.tittle}}</text>
-  </navigator>
+  <block wx:for="{{navList}}" wx:key="name">
+    <navigator class="nav-item" url="/pages/goodList/goodList">
+      <image class="nav-img" mode="widthFix" src="{{item.imgurl}}"/>
+      <view class="nav-tittle">{{item.tittle}}</view>
+    </navigator>
+</block>
 </view>

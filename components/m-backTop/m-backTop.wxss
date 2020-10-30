@@ -1,0 +1,6 @@
+.backTop{
+  position: fixed;
+  right: 24rpx;
+  bottom: 44rpx;
+  width: 80rpx;
+}
