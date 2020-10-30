@@ -1,0 +1,6 @@
+<view class="search">
+  <navigator class="search-nav">
+    <text class="iconfont icon-sousuo"></text>
+    <text class="search-tittle">宝宝奶瓶~</text>
+  </navigator> 
+</view>

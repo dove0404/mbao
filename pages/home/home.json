@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "m-search":"../../components/m-search/m-search",
+    "m-topInfo":"./components/m-topInfo/m-topInfo",
+    "m-navigatorBar":"./components/m-navigatorBar/m-navigatorBar",
+    "m-goods":"../../components/m-goods/m-goods"
+  },
+  "navigationBarBackgroundColor": "#ffc300"
+}

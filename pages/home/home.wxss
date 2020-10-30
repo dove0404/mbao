@@ -1,0 +1,31 @@
+.index-navbg{
+  background-color: yellow;
+  /* border: 1rpx solid #333; */
+  overflow: auto;
+  padding: 0 24rpx;
+}
+.home-tittle{
+  position: relative;
+  font-size: 34rpx;
+  color: #000;
+  font-weight: bold;
+  padding-left: 24rpx;
+  height: 60rpx;
+  margin-top: 60rpx;
+}
+.tittle-text{
+  position: absolute;
+  z-index: 2;
+}
+.home-tittle::before{
+  position: absolute;
+  top: 32rpx;
+  left: 34rpx;
+  content: '';
+  display: block;
+  width: 108rpx;
+  height: 10rpx;
+  border-radius: 6rpx;
+  background-color: var(--themeColor);
+  z-index: 1;
+}

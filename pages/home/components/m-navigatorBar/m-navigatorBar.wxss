@@ -1,0 +1,19 @@
+.index-nav{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 24rpx;
+  padding: 6rpx 10rpx;
+}
+.nav-item{
+  flex: 21%;
+  padding: 20rpx;
+  text-align: center;
+}
+.nav-img{
+  width: 110rpx;
+}
+.nav-tittle{
+  font-size: 24rpx;
+  color: #33312D;
+}

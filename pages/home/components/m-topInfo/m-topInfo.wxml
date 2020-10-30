@@ -1,0 +1,14 @@
+<view class="topInfo">
+  <view class="topInfo-item">
+    <text class="iconfont icon-haohuo"></text>
+    <text>优选好货</text>
+  </view>
+  <view class="topInfo-item">
+    <text class="iconfont icon-baozhang"></text>
+    <text>正品保障</text>
+  </view>
+  <view class="topInfo-item">
+    <text class="iconfont icon-shouhou"></text>
+    <text>售后无忧</text>
+  </view>
+</view>

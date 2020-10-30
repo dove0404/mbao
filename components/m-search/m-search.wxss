@@ -1,0 +1,17 @@
+/* @import "../../sytles/iconfont.wxss"; */
+
+.search{
+  height: 80rpx;
+  background-color: var(--themeColor);
+  padding: 10rpx 24rpx;
+}
+.search-nav{
+  background-color: #fff;
+  line-height: 60rpx;
+  border-radius: 40rpx;
+  color: #999;
+  padding-left: 28rpx;
+}
+.search-tittle{
+  padding-left: 18rpx;
+}

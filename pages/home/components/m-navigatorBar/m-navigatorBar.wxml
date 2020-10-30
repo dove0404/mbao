@@ -1,0 +1,6 @@
+<view class="index-nav">
+  <navigator class="nav-item" wx:for="{{navList}}" wx:key="name">
+    <image class="nav-img" mode="widthFix" src="{{item.imgurl}}"/>
+    <text class="nav-tittle">{{item.tittle}}</text>
+  </navigator>
+</view>
