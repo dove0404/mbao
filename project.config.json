@@ -70,9 +70,10 @@
       "current": -1,
       "list": [
         {
-          "id": -1,
-          "name": "pages/goodList/goodList",
-          "pathName": "pages/goodList/goodList",
+          "id": 0,
+          "name": "pages/cart/cart",
+          "pathName": "pages/cart/cart",
+          "query": "",
           "scene": null
         }
       ]

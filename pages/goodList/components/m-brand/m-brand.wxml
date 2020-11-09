@@ -1,5 +1,7 @@
-<scroll-view class="brand" scroll-x>
+<scroll-view scroll-x class="brand">
   <block wx:for="{{brandList}}" wx:key="index">
-    <view class="img-box"><image src="{{item.imgurl}}" mode="widthFix" class="brand-image"/></view>
+    <navigator class="img-box" url="/pages/goodList/goodList">
+      <image src="{{item.imgurl}}" mode="widthFix" class="brand-image"/>
+    </navigator>
   </block>
 </scroll-view>

@@ -17,6 +17,14 @@ Page({
       {
         value:'purebom',
         imgurl:'https://ae01.alicdn.com/kf/U91c03f27ed89432b84c903241efe3b4cr.jpg'
+      },
+      {
+        value:'巴拉巴拉',
+        imgurl:'https://ae01.alicdn.com/kf/U0d22e702fd6a4c3d895aca37a1e479c4D.jpg'
+      },
+      {
+        value:'purebom',
+        imgurl:'https://ae01.alicdn.com/kf/U91c03f27ed89432b84c903241efe3b4cr.jpg'
       }
     ],
     goods:[

@@ -1,18 +1,18 @@
 .brand{
   margin-bottom: 24rpx;
   height: 170rpx;
-  background-color: tomato;
+  padding-top: 10rpx;
+  background-color: white;
+  white-space: nowrap;
 }
 .img-box{
-  /* display: flex; */
   display: inline-block;
   width: 160rpx;
   height: 160rpx;
-  background-color: teal;
+  /* border: 1px solid red; */
+  text-align: center;
 }
 .brand-image{
+  margin-top: 54rpx;
   width: 100rpx;
-  height: 50rpx;
-  vertical-align: middle;
-    /* align-self: center; */
 }
