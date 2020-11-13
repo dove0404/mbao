@@ -71,9 +71,29 @@
       "list": [
         {
           "id": 0,
-          "name": "pages/cart/cart",
+          "name": "购物车",
           "pathName": "pages/cart/cart",
           "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "确认订单",
+          "pathName": "pages/submitOrder/submitOrder",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "详情页",
+          "pathName": "pages/detial/detial",
           "scene": null
         }
       ]

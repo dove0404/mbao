@@ -12,3 +12,8 @@ page{
   --themeColor: #ffc300;
   background-color: #f5f5f5;
 }
+checkbox .wx-checkbox-input{
+  /* 此样式统一修改本页面所有ckeckbox复选框样式，组件内修改无效 */
+  border-radius: 50%;
+}
+

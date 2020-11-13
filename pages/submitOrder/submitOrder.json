@@ -3,5 +3,5 @@
     "m-cartGoodsItem":"../../components/m-cartGoodsItem/m-cartGoodsItem",
     "m-account":"../../components/m-account/m-account"
   },
-  "navigationBarTitleText": "购物车"
+  "navigationBarTitleText": "确认订单"
 }

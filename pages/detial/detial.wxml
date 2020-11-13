@@ -1,0 +1,18 @@
+<view>
+  <view class="mainImg-box">
+    <image class="main-img" mode="widthFix" src="{{goodsDetial.mainImgUrl}}"/>
+  </view>
+  <view class="info-box">
+    <view>
+      <text class="price">￥{{goodsDetial.price}}</text>
+      <text class="old-price">￥{{goodsDetial.oldPrice}}</text>
+    </view>
+    <view class="tittle">{{goodsDetial.tittle}}</view>
+  </view>
+</view>
+<view class="attribute-box">
+      <text class="text-key">选择</text>
+      <text class="att-value">{{goodsDetial.attribute}}</text>
+      <text class="text-icon">...</text>
+    </view>
+<view></view>

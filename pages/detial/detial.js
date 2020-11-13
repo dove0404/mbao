@@ -1,20 +1,18 @@
-// pages/mine/mine.js
+// pages/detial/detial.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    mineGoods:[
-      {
-        tittle:'babycare儿童水杯三合一多用吸管杯',
-        imgurl:'http://img30.360buyimg.com/popWareDetail/jfs/t1/120814/35/8235/101223/5f23b42fE1757e59d/dc4fc720faf68b0a.jpg',
-        price:388,
-        oldPrice:600,
-        num:1,
-        value:'淡藻绿240ml带重力球'
-      }
-    ]
+    goodsDetial:{
+      id:101,
+      mainImgUrl:'https://ae01.alicdn.com/kf/Ud46e087860fa40ecaa8f38ae8f84e3fdQ.jpg',
+      price: 180,
+      oldPrice: 220,
+      tittle: 'b.box三合一多用辅食碗 婴儿吸管碗宝宝星星图案 宝宝吸管碗',
+      attribute: 'YEF039 四季款元宝鼠红色，3.78kg1件，可选服务'
+    }
   },
 
   /**

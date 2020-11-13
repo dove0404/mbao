@@ -1,0 +1,54 @@
+.mainImg-box{
+  background-color: yellowgreen;
+  height: 750rpx;
+  overflow: hidden;
+}
+.main-img{
+  width: 100%;
+}
+.info-box{
+  padding: 0 36rpx;
+  border-radius: 0 0 24rpx 24rpx;
+  background-color: white;
+  margin-bottom: 26rpx;
+  padding-bottom: 40rpx;
+}
+.price{
+  font-size: 40rpx;
+  color: #FA230A;
+  line-height: 100rpx;
+  font-weight: bold;
+}
+.old-price{
+  color: #999999;
+  text-decoration: line-through;
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+.tittle{
+  color: #333333;
+  line-height: 54rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.attribute-box{
+  /* padding-top: 44rpx; */
+  height: 150rpx;
+  background-color: white;
+  border-radius: 24rpx;
+  display: flex;
+  padding: 44rpx 36rpx 0 36rpx;
+  font-size: 26rpx;
+}
+.text-key{
+  flex: 2;
+  background-color: yellow;
+}
+.att-value{
+  flex: 11;
+  background-color: teal;
+}
+.text-icon{
+  flex: 2;
+  text-align: right;
+}

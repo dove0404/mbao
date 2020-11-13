@@ -1,2 +1,11 @@
-<!--pages/shopcar/shopcar.wxml-->
-<text>购物车</text>
+<view class="goodsList-Box">
+  <block wx:for="{{cartGoodsList}}" wx:key="index">
+    <m-cartGoodsItem cartGoodsItem="{{item}}"/>
+  </block>
+  <m-account>
+    <checkbox-group slot="goodsNum">
+      <checkbox>全选</checkbox>
+    </checkbox-group>
+    <text slot="tittle">去结算(2)</text>
+  </m-account>
+</view>

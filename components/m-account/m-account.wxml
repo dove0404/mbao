@@ -1,0 +1,10 @@
+<view class="account-box">
+  <view class="account-tips"><slot name="goodsNum"/></view>
+  <view class="price-box">
+    <view class="price">
+      合计：<text class="price-text">￥310</text></view>
+    <navigator url="/pages/submitOrder/submitOrder">
+      <view class="account-btn"><slot name="tittle"/></view>
+    </navigator>
+  </view>
+</view>

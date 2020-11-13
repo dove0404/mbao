@@ -1,0 +1,32 @@
+<view class="goods-box">
+  <view class="top-info">
+    <text>2020-10-10  13:00</text>
+    <text class="success">交易成功</text>
+  </view>
+  <view class="goods-contain">
+    <view class="check">
+      <checkbox-group>
+        <checkbox></checkbox>
+      </checkbox-group>
+    </view>
+    <view class="img-box">
+      <image class="img" mode="widthFix" src="{{cartGoodsItem.imgurl}}"/>
+    </view>
+    <view class="info">
+      <view class="tittle">{{cartGoodsItem.tittle}}</view>
+      <view class="attribute-box">
+        <text class="value">{{cartGoodsItem.value}}</text>
+        <text>X{{cartGoodsItem.num}}</text>
+      </view>
+      <view class="price-box">
+        <view class="price">￥{{cartGoodsItem.price}}</view>
+        <view class="iconfont icon-delete"></view>
+      </view>
+    </view>
+  </view>
+  <view class="operate">
+    <block wx:for="{{cartOperate}}" wx:key="index">
+      <view class="operate-item">{{item}}</view>
+    </block>
+  </view>
+</view>

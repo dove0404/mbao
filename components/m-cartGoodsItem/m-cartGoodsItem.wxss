@@ -1,0 +1,92 @@
+.goods-box{
+  padding: 44rpx 24rpx;
+  background-color: white;
+  border-radius: 24rpx;
+  margin-top: 24rpx;
+}
+.top-info{
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40rpx;
+  font-size: 24rpx;
+  color: #666;
+}
+.success{
+  color: #fa230a;
+}
+.goods-contain{
+  /* background-color: tomato; */
+  display: flex;
+}
+.check{
+  /* background-color: teal; */
+  display: flex;
+  align-items: center;
+  height: 190rpx;
+  padding-right: 10rpx;
+}
+.img-box{
+  /* background-color: violet; */
+  width: 190rpx;
+  height: 190rpx;
+  overflow: hidden;
+  border-radius: 16rpx;
+  margin-right: 24rpx;
+}
+.img{
+  width: 100%;
+}
+.tittle{
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.attribute-box{
+  font-size: 22rpx;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24rpx;
+}
+.value{
+  background-color: #f6f6f6;
+  line-height: 40rpx;
+  border-radius: 20rpx;
+  padding: 0 16rpx;
+}
+.price-box{
+  display: flex;
+  justify-content: space-between;
+  line-height: 80rpx;
+}
+.price{
+  font-size: 36rpx;
+  color: #fa230a;
+}
+.operate{
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: teal; */
+}
+.operate-item{
+  position: relative;
+  font-size: 24rpx;
+  color: #16161a;
+  height: 58rpx;
+  margin-left: 22rpx;
+  padding: 0 25rpx;
+  line-height: 58rpx;
+}
+.operate-item::after{
+  /* 通过放大再缩小的方式实现1px边框线,伪类+transform,元素本身要position:relative*/
+  position: absolute;
+  content: '';
+  border:1px solid #b5b5b5;
+  border-radius: 60rpx;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}

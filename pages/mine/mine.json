@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "m-cartGoodsItem":"../../components/m-cartGoodsItem/m-cartGoodsItem"
+  },
+  "navigationBarTitleText": "我的订单"
 }

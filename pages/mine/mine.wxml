@@ -1,2 +1,5 @@
-<!--pages/mine/mine.wxml-->
-<text>我的</text>
+<view class="mine-goods">
+  <block wx:for="{{mineGoods}}" wx:key="index">
+    <m-cartGoodsItem cartGoodsItem="{{item}}"/>
+  </block>
+</view>

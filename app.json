@@ -3,7 +3,9 @@
     "pages/home/home",
     "pages/cart/cart",
     "pages/mine/mine",
-    "pages/goodList/goodList"
+    "pages/goodList/goodList",
+    "pages/submitOrder/submitOrder",
+    "pages/detial/detial"
   ],
   "window": {
     "backgroundTextStyle": "light",

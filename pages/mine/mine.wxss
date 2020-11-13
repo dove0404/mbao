@@ -1,1 +1,3 @@
-/* pages/mine/mine.wxss */
+.mine-goods{
+  padding: 0 24rpx;
+}
