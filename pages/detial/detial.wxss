@@ -11,7 +11,6 @@
   border-radius: 0 0 24rpx 24rpx;
   background-color: white;
   margin-bottom: 26rpx;
-  padding-bottom: 40rpx;
 }
 .price{
   font-size: 40rpx;
@@ -31,22 +30,36 @@
   font-size: 34rpx;
   font-weight: bold;
 }
+.attribute{
+  background: white;
+  border-radius: 24rpx;
+  padding: 44rpx 36rpx 0 36rpx;
+  margin: 40rpx 0;
+}
 .attribute-box{
   /* padding-top: 44rpx; */
-  height: 150rpx;
-  background-color: white;
-  border-radius: 24rpx;
+  /* background-color: violet; */
+  height: 100rpx;
   display: flex;
-  padding: 44rpx 36rpx 0 36rpx;
   font-size: 26rpx;
+}
+.ensure-box{
+  background: #FCFCFC;
+  font-size: 24rpx;
+  color: #8C8C8C;
+  display: flex;
+}
+.sub-ensure{
+  padding-right: 30rpx;
+  line-height: 80rpx;
 }
 .text-key{
   flex: 2;
-  background-color: yellow;
-}
+  /* background-color: yellow; */
+} 
 .att-value{
   flex: 11;
-  background-color: teal;
+  /* background-color: teal; */
 }
 .text-icon{
   flex: 2;

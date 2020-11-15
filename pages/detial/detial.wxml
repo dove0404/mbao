@@ -10,9 +10,19 @@
     <view class="tittle">{{goodsDetial.tittle}}</view>
   </view>
 </view>
-<view class="attribute-box">
+<view class="attribute">
+  <view class="attribute-box">
       <text class="text-key">选择</text>
       <text class="att-value">{{goodsDetial.attribute}}</text>
       <text class="text-icon">...</text>
-    </view>
-<view></view>
+  </view>
+  <view class="ensure-box">
+    <block wx:for="{{ensureList}}" wx:key="index">
+      <view class="sub-ensure">
+        <text class="iconfont {{item.enClass}}"></text>
+        <text>{{item.enValue}}</text>
+      </view>
+  </block>
+  </view>
+</view>
+<recomGoodsItem recomGoods="{{goods}}"/>

@@ -1,1 +1,14 @@
-<view>推荐货品</view>
+<view class="recom-box">
+  <text class="tittle">猜你喜欢</text>
+  <view class="recomGoods-box">
+    <block wx:for="{{recomGoods}}" wx:key="index">
+      <view class="recomItem-box">
+        <view class="recomImg-box">
+          <image src="{{item.imgurl}}" class="recom-img" mode="widthFix"/>
+        </view>
+        <view class="recom-tittle">{{item.tittle}}</view>
+        <text class="recom-price">￥{{item.price}}</text>
+      </view>
+    </block>
+  </view>
+</view>
