@@ -5,6 +5,16 @@
 }
 .tittle{
   font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.tittle::before{
+  content: "";
+  display: inline-block;
+  width: 4rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+  background: #F1A200;
 }
 .recomGoods-box{
   display: flex;

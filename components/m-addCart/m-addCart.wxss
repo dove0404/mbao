@@ -1,0 +1,23 @@
+.addCart-box{
+  width: 100%;
+  height: 120rpx;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 34rpx;
+}
+.addCart-box::after{
+  /* 通过放大再缩小的方式实现1px边框线,伪类+transform,元素本身要position:relative*/
+  position: absolute;
+  content: '';
+  border-top:1px solid #e3e5e9;
+  width: 200%;
+  top: 0;
+  left: 0;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}

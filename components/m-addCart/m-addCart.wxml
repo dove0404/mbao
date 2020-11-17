@@ -1,0 +1,4 @@
+<view class="addCart-box">
+  <slot name="service"/>
+  <slot name="button"></slot>
+</view>

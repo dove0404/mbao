@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "recomGoodsItem":"../../components/recomGoodsItem/recomGoodsItem"
+    "recomGoodsItem":"../../components/recomGoodsItem/recomGoodsItem",
+    "m-addCart":"../../components/m-addCart/m-addCart"
   }
 }

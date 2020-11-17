@@ -1,10 +1,16 @@
-// components/addCart/addCart.js
+// components/m-account/m-account.js
 Component({
+  options:{
+    multipleSlots:true
+  },
   /**
    * 组件的属性列表
    */
   properties: {
-
+    subkey:{
+      type:Object,
+      value:''
+        }
   },
 
   /**

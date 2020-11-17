@@ -1,5 +1,5 @@
 <view class="recom-box">
-  <text class="tittle">猜你喜欢</text>
+  <view class="tittle">猜你喜欢</view>
   <view class="recomGoods-box">
     <block wx:for="{{recomGoods}}" wx:key="index">
       <view class="recomItem-box">

@@ -11,18 +11,31 @@
   </view>
 </view>
 <view class="attribute">
-  <view class="attribute-box">
       <text class="text-key">选择</text>
       <text class="att-value">{{goodsDetial.attribute}}</text>
       <text class="text-icon">...</text>
-  </view>
-  <view class="ensure-box">
-    <block wx:for="{{ensureList}}" wx:key="index">
-      <view class="sub-ensure">
-        <text class="iconfont {{item.enClass}}"></text>
-        <text>{{item.enValue}}</text>
-      </view>
-  </block>
-  </view>
 </view>
 <recomGoodsItem recomGoods="{{goods}}"/>
+<view>
+  <view class="topTabbar-box">
+    <view>
+      <text>商品展示</text>
+      <text>规格参数</text>
+    </view>
+  </view>
+  <view class="show-images">
+    <block wx:for="{{showImageList}}" wx:key="index">
+      <image src="{{item}}" mode="widthFix"/>
+    </block>
+  </view>
+</view>
+<m-addCart>
+  <view slot="service" class="service">
+    <text class="iconfont icon-adicon-09"></text>
+    <text>客服</text>
+  </view>
+  <view slot="button" class="btn-box">
+    <view class="addCart-btn">加入购物车</view>
+    <view class="buy-btn">立即购买</view>
+  </view>
+</m-addCart>
