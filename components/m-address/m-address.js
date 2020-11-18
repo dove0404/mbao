@@ -1,4 +1,4 @@
-// components/m-cartGoods/m-cartGoods.js
+// components/m-address/m-address.js
 Component({
   options:{
     addGlobalClass:true
@@ -7,10 +7,7 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    cartGoodsItem:{
-      type:Object,
-      value:{}
-    }
+
   },
 
   /**

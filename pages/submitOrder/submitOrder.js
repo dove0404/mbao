@@ -29,6 +29,20 @@ Page({
         num:1,
         value:'淡藻绿240ml带重力球'
       }
+    ],
+    infoText:[
+      {
+        infoKey:'配送方式',
+        infoValue:'快递免邮'
+      },
+      {
+        infoKey:'开具发票',
+        infoValue:'本次不开具发票'
+      },
+      {
+        infoKey:'订单备注',
+        infoValue:'备注前可先向客服咨询哦'
+      },
     ]
   },
 

@@ -1,5 +1,7 @@
 <view class="mine-goods">
   <block wx:for="{{mineGoods}}" wx:key="index">
-    <m-cartGoodsItem cartGoodsItem="{{item}}"/>
+    <navigator url="/pages/order/order">
+     <m-cartGoodsItem cartGoodsItem="{{item}}"/>
+    </navigator>
   </block>
 </view>

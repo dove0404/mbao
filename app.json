@@ -5,7 +5,8 @@
     "pages/mine/mine",
     "pages/goodList/goodList",
     "pages/submitOrder/submitOrder",
-    "pages/detial/detial"
+    "pages/detial/detial",
+    "pages/order/order"
   ],
   "window": {
     "backgroundTextStyle": "light",

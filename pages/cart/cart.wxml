@@ -1,6 +1,8 @@
 <view class="goodsList-Box">
   <block wx:for="{{cartGoodsList}}" wx:key="index">
-    <m-cartGoodsItem cartGoodsItem="{{item}}"/>
+    <navigator url="/pages/detial/detial">
+      <m-cartGoodsItem cartGoodsItem="{{item}}"/>
+    </navigator>
   </block>
   <m-account>
     <checkbox-group slot="goodsNum">

@@ -1,0 +1,24 @@
+<view class="order-topImage">
+  <view class="order-topImage-content">
+    <text class="order-topImage-tittle">运输中</text>
+    <text class="order-topImage-info">宝贝很快到达您的手中咯</text>
+  </view>
+  <view class="iconfont icon-car-12"></view>
+</view>
+<view class="order-content">
+  <m-address/>
+  <m-cartGoodsItem cartGoodsItem="{{orderGoodsItem}}"/>
+  <view class="order-info">
+    <text class="order-infoTittle">订单信息</text>
+    <block wx:for="{{infoText}}" wx:key="index">
+      <view class="item-info">
+        <text>{{item.infoKey}}</text>
+        <text>{{item.infoValue}}</text>
+      </view>
+    </block>
+  </view>
+</view>
+<view class="order-operate">
+  <view class="order-operateItem">查看物流</view>
+  <view class="order-operateItem">售后/退款</view>
+</view>

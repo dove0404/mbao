@@ -1,0 +1,11 @@
+<view class="address-box">
+  <view class="icon-box">
+    <view class="iconfont icon-adicon-09"></view>
+  </view>
+  <view class="address">
+    <text class="ad-name">周小福</text>
+    <text class="ad-phone">18922885200</text>
+    <view class="ad-detial">广东省深圳市盐田区深盐路2011号周大福集团大厦福集团大厦</view>
+    <view class="iconfont icon-arrow-right-10"></view>
+  </view>
+</view>

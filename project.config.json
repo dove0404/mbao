@@ -94,6 +94,13 @@
           "id": -1,
           "name": "详情页",
           "pathName": "pages/detial/detial",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "订单详情",
+          "pathName": "pages/order/order",
           "scene": null
         }
       ]

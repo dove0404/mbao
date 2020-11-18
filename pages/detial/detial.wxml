@@ -31,7 +31,7 @@
 </view>
 <m-addCart>
   <view slot="service" class="service">
-    <text class="iconfont icon-adicon-09"></text>
+    <text class="iconfont icon-service"></text>
     <text>客服</text>
   </view>
   <view slot="button" class="btn-box">
