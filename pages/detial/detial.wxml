@@ -1,7 +1,5 @@
 <view>
-  <view class="mainImg-box">
-    <image class="main-img" mode="widthFix" src="{{goodsDetial.mainImgUrl}}"/>
-  </view>
+  <m-imageSwiper bigImgList="{{goodsDetial.mainImgUrl}}"/>
   <view class="info-box">
     <view>
       <text class="price">￥{{goodsDetial.price}}</text>

@@ -1,0 +1,8 @@
+<swiper indicator-dots
+        indicator-active-color="#fff">
+  <block wx:for="{{bigImgList}}" wx:key="index">
+    <swiper-item>
+      <image mode="widthFix" class="main-img" src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>

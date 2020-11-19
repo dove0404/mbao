@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "recomGoodsItem":"../../components/recomGoodsItem/recomGoodsItem",
-    "m-addCart":"../../components/m-addCart/m-addCart"
+    "m-addCart":"../../components/m-addCart/m-addCart",
+    "m-imageSwiper":"../detial/components/m-imageSwiper/m-imageSwiper"
   }
 }
