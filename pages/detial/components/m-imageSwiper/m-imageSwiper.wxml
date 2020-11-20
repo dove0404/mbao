@@ -1,7 +1,8 @@
 <swiper indicator-dots
         indicator-active-color="#fff">
   <block wx:for="{{bigImgList}}" wx:key="index">
-    <swiper-item>
+    <swiper-item bindtap="showPreviewImage" data-url="{{item}}">
+    <!-- data-url="{{item}}"传参到e，后续可以从e.currentTarget.dataset.url取出参数 -->
       <image mode="widthFix" class="main-img" src="{{item}}"></image>
     </swiper-item>
   </block>
