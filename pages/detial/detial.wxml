@@ -39,6 +39,7 @@
   <view slot="service" class="service">
     <text class="iconfont icon-service"></text>
     <text>客服</text>
+    <button open-type="contact"></button>
   </view>
   <view slot="button" class="btn-box">
     <view class="addCart-btn">加入购物车</view>

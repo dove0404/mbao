@@ -12,13 +12,14 @@
 }
 .tittle{
   height: 100rpx;
-  overflow: hidden;
   text-overflow: ellipsis;
   line-height: 50rpx;
+  color: #333;
+  /* 以下四行代码实现文本超出时候... */
+  overflow: hidden;
   display: -webkit-box;  
   -webkit-box-orient: vertical;    
   -webkit-line-clamp: 2; 
-  color: #333;
 }
 .price{
   padding: 26rpx 0;

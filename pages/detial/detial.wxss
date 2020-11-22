@@ -73,6 +73,14 @@ show-images{
   font-size: 48rpx;
   color: #333;
 }
+.service button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30rpx !important;
+  height: 100%;
+  opacity: 0;
+}
 .btn-box{
   display: flex;
 }
