@@ -61,7 +61,6 @@ Page({
       'http://img30.360buyimg.com/popWareDetail/jfs/t1/147496/5/10332/204135/5f815356Ee3bdb99e/544dca8fb323e415.jpg'
     ]
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

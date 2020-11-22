@@ -1,4 +1,4 @@
-<view>
+<view class="image-box">
   <m-imageSwiper bigImgList="{{goodsDetial.mainImgUrl}}"/>
   <view class="info-box">
     <view>
@@ -6,6 +6,14 @@
       <text class="old-price">￥{{goodsDetial.oldPrice}}</text>
     </view>
     <view class="tittle">{{goodsDetial.tittle}}</view>
+  </view>
+  <view class="cartAndShare">
+    <navigator open-type="switchTab" url="/pages/cart/cart">
+      <view class="iconfont icon-shopcart"></view>
+    </navigator>
+    <view class="iconfont icon-share">
+      <button class="share-btn" open-type="share"></button>
+    </view>
   </view>
 </view>
 <view class="attribute">
