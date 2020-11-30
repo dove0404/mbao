@@ -1,6 +1,8 @@
 //index.js
 //获取应用实例
 const app = getApp()
+// 导入封装好的网络请求函数request
+import request from '../../service/network.js'
 
 Page({
   data: {
@@ -97,6 +99,18 @@ Page({
       }
     ],
     showBackTop:false
+  },
+    /**
+   * 生命周期函数--监听页面加载，页面加载完成立刻发送数据请求
+   */
+  onLoad: function (options) {
+    request({
+      url: 'https://api-hmugo-web.itheima.net/api/public/v1/goods/search'
+      }).then(res => {
+        console.log(res)
+      }).catch(err => {
+        console.log(err)
+      })
   },
   // 监听页面滚动函数(待优化)
   onPageScroll(options) {
