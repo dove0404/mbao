@@ -3,5 +3,6 @@
     "m-navTop":"./components/m-navTop/m-navTop",
     "m-brand":"./components/m-brand/m-brand",
     "m-goods":"../../components/m-goods/m-goods"
-  }
+  },
+  "navigationBarTitleText": "商品列表"
 }

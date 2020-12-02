@@ -1,5 +1,8 @@
 <scroll-view class="navTop" scroll-x>
   <block wx:for="{{navTopList}}" wx:key="index">
-    <text class="navTop-tittle">{{item}}</text>
+    <view class="navTop-tittle {{cutrrentIndex == index ? 'active' : ''}}"
+          bindtap="handItemClick"
+          data-index="{{index}}"
+    ><text>{{item}}</text></view>
   </block>
 </scroll-view>

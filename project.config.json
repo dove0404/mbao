@@ -105,9 +105,10 @@
           "scene": null
         },
         {
-          "id": -1,
+          "id": 5,
           "name": "列表页",
           "pathName": "pages/goodList/goodList",
+          "query": "cid=1",
           "scene": null
         }
       ]

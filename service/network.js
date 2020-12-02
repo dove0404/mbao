@@ -1,4 +1,4 @@
-// 在微信默认网络请求AIP上再封装一个request函数，后续统一面向request请求数据
+// 在微信默认网络请求AIP上再封装一个request函数，后续二次封装使用request请求数据
 export default function request(options) {
   return new Promise((resolve,reject) => {
     wx.request({

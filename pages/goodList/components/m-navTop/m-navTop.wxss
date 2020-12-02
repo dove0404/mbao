@@ -5,7 +5,15 @@
   white-space: nowrap;
 }
 .navTop-tittle{
+  display: inline-block;
   padding: 0 20rpx;
-  line-height: 72rpx;
+  line-height: 70rpx;
   font-size: 28rpx;
+}
+.active{
+  font-weight: bold;
+}
+.active text{
+  border-bottom: 6rpx solid #f1a200;
+  padding-bottom:8rpx;
 }

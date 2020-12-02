@@ -1,13 +1,13 @@
 <view class="goodsItem">
   <navigator url="/pages/detial/detial">
     <view class="goods-image">
-      <image class="goods-imageUr" src="{{item.imgurl}}" mode="widthFix"/>
+      <image class="goods-imageUr" src="{{item.goods_big_logo}}" mode="widthFix"/>
     </view>
     <view class="desc-info">
-      <view class="tittle">{{item.tittle}}</view>
+      <view class="tittle">{{item.goods_name}}</view>
       <view class="price">
-        <text>￥{{item.price}}</text>
-        <text class="orgprice">￥{{item.oldPrice}}</text>
+        <text>￥{{item.goods_price}}</text>
+        <text class="orgprice">￥{{item.goods_price}}</text>
       </view>
     </view>
   </navigator>
