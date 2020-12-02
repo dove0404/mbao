@@ -3,6 +3,6 @@
     <view class="navTop-tittle {{cutrrentIndex == index ? 'active' : ''}}"
           bindtap="handItemClick"
           data-index="{{index}}"
-    ><text>{{item}}</text></view>
+    ><text class="ac-text">{{item}}</text></view>
   </block>
 </scroll-view>

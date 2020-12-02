@@ -3,6 +3,7 @@
   background-color: white;
   padding-left: 24rpx;
   white-space: nowrap;
+  margin-bottom: 24rpx;
 }
 .navTop-tittle{
   display: inline-block;
@@ -13,7 +14,7 @@
 .active{
   font-weight: bold;
 }
-.active text{
+.active .ac-text{
   border-bottom: 6rpx solid #f1a200;
   padding-bottom:8rpx;
 }

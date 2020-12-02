@@ -1,3 +1,1 @@
-<m-navTop navTopList="{{['童鞋','品质童装','纸尿裤','哺乳喂养','婴儿车','奶粉','图书玩具','其它']}}"/>
-<m-brand brandList="{{brandList}}"/>
 <m-goods goods="{{goods}}"/>

@@ -17,7 +17,7 @@
   color: #000;
   font-weight: bold;
   padding-left: 24rpx;
-  height: 60rpx;
+  height: 50rpx;
   margin-top: 60rpx;
 }
 .tittle-text{
