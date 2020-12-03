@@ -9,49 +9,49 @@ Page({
     navList:[
       {
         name:1,
-        cid:1,
+        cid:5,
         tittle:'童鞋',
         imgurl: '../../../../assets/icons/tongxie.png'
       },
       {
         name:2,
-        cid:2,
+        cid:6,
         tittle:'品质童装',
         imgurl: '../../../../assets/icons/tongxie.png'
       },
       {
         name:3,
-        cid:3,
+        cid:9,
         tittle:'纸尿裤',
         imgurl: '../../../../assets/icons/tongxie.png'
       },
       {
         name:4,
-        cid:4,
+        cid:8,
         tittle:'哺乳喂养',
         imgurl: '../../../../assets/icons/tongxie.png'
       },
       {
         name:5,
-        cid:5,
+        cid:10,
         tittle:'婴儿车',
         imgurl: '../../../../assets/icons/tongxie.png'
       },
       {
         name:6,
-        cid:6,
+        cid:11,
         tittle:'奶粉',
         imgurl: '../../../../assets/icons/tongxie.png'
       },
       {
         name:7,
-        cid:7,
+        cid:12,
         tittle:'图书玩具',
         imgurl: '../../../../assets/icons/tongxie.png'
       },
       {
         name:8,
-        cid:8,
+        cid:13,
         tittle:'更多',
         imgurl: '../../../../assets/icons/tongxie.png'
       },

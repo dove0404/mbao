@@ -2,21 +2,26 @@
 import{ getGoodListData } from '../../service/goodList'
 Page({
   data: {
-    goods:[]
+    goods:[],
+    cid:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options)
+    // 1.获取传入的cid
+    this.setData({
+      cid: options.cid
+    })
     // 直接调用下面封装号的函数即可
     this._getGoodListData()
   },
   // ----------------------------网络请求函数----------------------------------
   // 将请求结果封装成_getGoodListData函数，上面直接调用即可
   _getGoodListData() {
-    getGoodListData().then(res =>{
+    getGoodListData(this.data.cid).then(res =>{
+    console.log(res)
     const goodsList = res.data.message.goods;
     this.setData({
       goods: goodsList
