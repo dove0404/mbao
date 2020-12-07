@@ -1,7 +1,7 @@
 <view class="goodsItem">
   <navigator url="/pages/detial/detial">
     <view class="goods-image">
-      <image class="goods-imageUr" src="{{item.goods_big_logo}}" mode="widthFix"/>
+      <image class="goods-imageUr" src="{{item.goods_big_logo?item.goods_big_logo:'https://ae01.alicdn.com/kf/U1891978efa3348e18b549a975d97702bN.jpg'}}" mode="widthFix"/>
     </view>
     <view class="desc-info">
       <view class="tittle">{{item.goods_name}}</view>

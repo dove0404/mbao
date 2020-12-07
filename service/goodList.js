@@ -3,12 +3,13 @@ import request from './network.js';
 
 const baseURl = 'https://api-hmugo-web.itheima.net/api';
 
-export function getGoodListData(cid) {
+export function getGoodListData(QueryParams) {
   return request({
     url: baseURl + '/public/v1/goods/search',
     data: {
-      cid,
-      pagesize:20
+      cid: QueryParams.cid,
+      pagesize: QueryParams.pagesize,
+      pagenum: QueryParams.pagenum
     }
   })
 }
