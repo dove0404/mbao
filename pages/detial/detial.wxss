@@ -45,23 +45,16 @@
   flex: 2;
   text-align: right;
 }
-.topTabbar-box{
+.goods-info-tittle{
   background-color: #fff;
   border-radius: 20rpx 20rpx 0 0;
-  display: flex;
-  justify-content: center;
   margin-top: 26rpx;
-}
-.topTabbar-box text{
   line-height: 120rpx;
-  padding: 10rpx 30rpx;
-  font-size: 28rpx;
+  padding-left: 24rpx;
+  font-weight: bold;
 }
-show-images{
+.goods-info-content{
   padding-bottom: 120rpx;
-}
-.show-images image{
-  width: 100%;
 }
 .service text{
   display: block;

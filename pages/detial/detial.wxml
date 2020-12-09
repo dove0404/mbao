@@ -1,11 +1,11 @@
 <view class="image-box">
-  <m-imageSwiper bigImgList="{{goodsDetial.mainImgUrl}}"/>
+  <m-imageSwiper bigImgList="{{goodsDetial.pics}}"/>
   <view class="info-box">
     <view>
-      <text class="price">￥{{goodsDetial.price}}</text>
-      <text class="old-price">￥{{goodsDetial.oldPrice}}</text>
+      <text class="price">￥{{goodsDetial.goods_price}}</text>
+      <text class="old-price">￥{{goodsDetial.goods_price}}</text>
     </view>
-    <view class="tittle">{{goodsDetial.tittle}}</view>
+    <view class="tittle">{{goodsDetial.goods_name}}</view>
   </view>
   <view class="cartAndShare">
     <navigator open-type="switchTab" url="/pages/cart/cart">
@@ -18,21 +18,15 @@
 </view>
 <view class="attribute">
       <text class="text-key">选择</text>
-      <text class="att-value">{{goodsDetial.attribute}}</text>
+      <text class="att-value">{{goodsDetial.goods_name}}</text>
       <text class="text-icon">...</text>
 </view>
 <recomGoodsItem recomGoods="{{goods}}"/>
 <view>
-  <view class="topTabbar-box">
-    <view>
-      <text>商品展示</text>
-      <text>规格参数</text>
-    </view>
-  </view>
-  <view class="show-images">
-    <block wx:for="{{showImageList}}" wx:key="index">
-      <image src="{{item}}" mode="widthFix"/>
-    </block>
+  <view class="goods-info-tittle">商品展示</view>
+  <view class="goods-info-content">
+    <!-- 富文本内容使用rich-text标签-->
+    <rich-text nodes="{{goodsDetial.goods_introduce}}"></rich-text>
   </view>
 </view>
 <m-addCart>
@@ -42,7 +36,7 @@
     <button open-type="contact"></button>
   </view>
   <view slot="button" class="btn-box">
-    <view class="addCart-btn">加入购物车</view>
+    <view class="addCart-btn" bindtap="handleCartAdd">加入购物车</view>
     <view class="buy-btn">立即购买</view>
   </view>
 </m-addCart>

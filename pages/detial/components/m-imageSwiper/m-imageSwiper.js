@@ -22,10 +22,12 @@ Component({
    */
   methods: {
     showPreviewImage(e) {
-      const current = e.currentTarget.dataset.url //取出传进来的url
+      const current = e.currentTarget.dataset.url; //取出传进来的url
+      const urls =  this.data.bigImgList.map(v=>v.pics_big) //解构bigImgList并重组成新的url数组
+      console.log(current);
       wx.previewImage({
         current: current, // 当前显示图片的http链接
-        urls: this.data.bigImgList // 需要预览的图片http链接列表
+        urls:urls // 需要预览的图片http链接列表
       })
     }
   }
