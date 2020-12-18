@@ -81,14 +81,21 @@ Page({
       if(index === -1){
         // 2.2 不存在 直接给购物车数组添加新元素，并带上数量属性num 重新把购物车数组填回缓存
         this.goodsInfo.message.num = 1;
+        this.goodsInfo.message.ischecked = true;
         cart.push(this.goodsInfo.message);
       }else{
         // 2.1 若存在 修改商品数据 执行购物车数量++ 重新把购物车数组填回缓存
         cart[index].num++;
-      }
+      };
       // 3.把购物车重新添加回缓存中
       wx.setStorageSync('cart', cart);
     // 3.弹出“加入购物车成功”
+    wx.showToast({
+      title: '加入成功',
+      icon:'success',
+      // mask为true遮罩层，防止手抖
+      mask:true
+    })
     console.log(this.goodsInfo.message)
   }
 })

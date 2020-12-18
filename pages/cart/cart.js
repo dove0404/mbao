@@ -5,56 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    cartGoodsList:[
-      {
-        tittle:'babycare儿童水杯三合一多用吸管杯',
-        imgurl:'http://img30.360buyimg.com/popWareDetail/jfs/t1/120814/35/8235/101223/5f23b42fE1757e59d/dc4fc720faf68b0a.jpg',
-        price:388,
-        oldPrice:600,
-        num:1,
-        value:'淡藻绿240ml带重力球'
-      },
-      {
-        tittle:'babycare儿童水杯三合一多用吸管杯',
-        imgurl:'https://img13.360buyimg.com/imgzone/jfs/t1/124599/26/16300/101100/5f969c94E4cd12b15/ba4735a730c97491.jpg',
-        price:166,
-        oldPrice:530,
-        num:1,
-        value:'淡藻绿240ml带重力球'
-      },
-      {
-        tittle:'babycare儿童水杯三合一多用吸管杯',
-        imgurl:'http://img30.360buyimg.com/popWareDetail/jfs/t1/147496/5/10332/204135/5f815356Ee3bdb99e/544dca8fb323e415.jpg',
-        price:88,
-        oldPrice:360,
-        num:1,
-        value:'淡藻绿240ml带重力球'
-      },
-      {
-        tittle:'babycare儿童水杯三合一多用吸管杯',
-        imgurl:'http://img30.360buyimg.com/popWareDetail/jfs/t1/120814/35/8235/101223/5f23b42fE1757e59d/dc4fc720faf68b0a.jpg',
-        price:388,
-        oldPrice:600,
-        num:1,
-        value:'淡藻绿240ml带重力球'
-      },
-      {
-        tittle:'babycare儿童水杯三合一多用吸管杯',
-        imgurl:'https://img13.360buyimg.com/imgzone/jfs/t1/124599/26/16300/101100/5f969c94E4cd12b15/ba4735a730c97491.jpg',
-        price:166,
-        oldPrice:530,
-        num:1,
-        value:'淡藻绿240ml带重力球'
-      },
-      {
-        tittle:'babycare儿童水杯三合一多用吸管杯',
-        imgurl:'http://img30.360buyimg.com/popWareDetail/jfs/t1/147496/5/10332/204135/5f815356Ee3bdb99e/544dca8fb323e415.jpg',
-        price:88,
-        oldPrice:360,
-        num:1,
-        value:'淡藻绿240ml带重力球'
-      }
-    ],
+    cartGoods:[],
+    allChecked:false,
+    totalPrice:0,
+    totalNum:0
   },
 
   /**
@@ -65,51 +19,32 @@ Page({
   },
 
   /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    // 获取缓存数据
+    const cart = wx.getStorageSync('cart')||[];
+    // 计算全选
+    // 1.every 数组方法：遍历数组，会接收一个回调函数，当每一个回调函数都返回true时，every则返回true；
+    // 只要有一个返回false，则停止循环，直接返回fale
+    // 2.空数组调用 every，返回值就是 true
+    const allChecked = cart.length?cart.every(v=>v.ischecked):false;
+    // 计算总价格和总数量
+    let totalPrice = 0;
+    let totalNum = 0;
+    // 遍历cart，只要v.checked为true则执行价格计算
+    cart.forEach(v=>{
+      if(v.ischecked){
+        totalPrice += v.num*v.goods_price;
+        totalNum += v.num;
+        console.log(totalNum)
+      }
+    })
+    this.setData({
+      cartGoods:cart,
+      allChecked,
+      totalPrice,
+      totalNum
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
 })

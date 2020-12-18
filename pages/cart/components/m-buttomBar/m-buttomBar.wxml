@@ -1,0 +1,16 @@
+<view class="account-box">
+  <view class="account-tips">
+    <checkbox-group>
+      <checkbox checked="{{allChecked}}">全选</checkbox>
+    </checkbox-group>
+  </view>
+  <view class="price-box">
+    <view class="price">
+      合计：<text class="price-text">￥310</text></view>
+    <navigator url="/pages/submitOrder/submitOrder">
+      <view class="account-btn">去结算({{subkey.totalNum}})</view>
+    </navigator>
+  </view>
+</view>
+
+    

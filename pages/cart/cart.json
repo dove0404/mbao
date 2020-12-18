@@ -1,7 +1,7 @@
 {
   "usingComponents": {
     "m-cartGoodsItem":"../../components/m-cartGoodsItem/m-cartGoodsItem",
-    "m-account":"../../components/m-account/m-account"
+    "m-buttomBar":"./components/m-buttomBar/m-buttomBar"
   },
   "navigationBarTitleText": "购物车"
 }
